@@ -1,6 +1,4 @@
-function ImageList(){
-return(
-    <div>ImageList</div>
-)
+function ImageList() {
+  return <div>ImageList</div>;
 }
 export default ImageList;

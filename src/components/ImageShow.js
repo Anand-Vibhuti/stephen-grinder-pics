@@ -1,7 +1,7 @@
 function ImageShow({image}) {
-  return ( <div><form >{image.alt_description}
-  {console.log(image)}
-  <img src={image.links.download} style={{width:95,height:85}} /> 
- </form> </div>);
+  return ( <div>
+  
+  <img src={image.urls.small}  alt={image.alt_description} /> 
+  </div>);
 }
 export default ImageShow;
